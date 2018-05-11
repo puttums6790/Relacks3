@@ -20,10 +20,14 @@ const Landing = pages => {
         <h1 className="blurbTitle">GIVE</h1>
       </div>
       <div className="firstBlurbOneText">
-        <p>Don't toss your stuff if you no longer need them!</p>
-        <p>Give your stuff away to someone else who may get some good use from them. As the saying goes "One man's trash is another man's treasure"! </p>
-        <p>Plus you will be helping the environment by promoting the reuse of your items.</p>
-        <p>On a vacation at a beach resort and you purchased boogie boards, beach chairs, and pool noodles for your stay, but you don't want to take it back home with you on the plane? Give it to someone on the resort or in the area who needs it.</p>
+      <h5>Have equipment you don't use? Don't let it collect dust in your garage, 
+        or take up space in your room! Post it on ReLacks and earn cash, while someone 
+        gets to enjoy one of your favorite hobbies.</h5>
+        <h5>Connecting you with users in your area, you can seamlessly lease your stuff.
+        Whether it's an easel and paint, or simply a basketball, there is no doubt
+        someone will be looking to use your products</h5>
+        <h5>Whatever your method, getting started with ReLacks is a simple way towards
+        entrepeneurship.</h5>
       </div>
     </div>
     <div className="firstBlurbTwo">
@@ -31,8 +35,12 @@ const Landing = pages => {
         <h1 className="blurbTitle">GET</h1>
       </div>
       <div className="firstBlurbTwoText">
-        <p>Why spend money on things you will only use once!</p>
-        <p>Find someone who is willing to give you the items you need for free!</p>
+      <h5>Tired of wanting to try new things, but being bound by the restrictions of 
+        your financial situation.</h5>
+        <h5>Help has finally arrived. With ReLacks we connect you with people in your area
+        who have resources they're no longer using. Want to try Kayaking, or have a barbeque
+        with friends? Now you can!</h5>
+        <h5>Having fun is a breeze with ReLacks!</h5>
       </div>
     </div>
   </div>
@@ -50,11 +58,16 @@ const Landing = pages => {
   <div className="secondBlurbBox">
     <div className="secondBlurbLeft">
       <h1>MISSION STATEMENT</h1>
-      <p>skfbaskfbakfbakfbafbakfbaksf asdkhasfvkasf asfkhasbfkashf asfhkasvfkahsf asfhvafhabfka fhabvef fhvasf fhaevf ahbfasodfa fhbvasf</p>
+      <h5>Here at ReLacks our goal is to foster creativity and connections in 
+      communities nationwide. By encouraging the flow of equipment of all sorts, 
+      we hope to allow for new freedoms for our users. Financial opportunities for our 
+      givers, and the joy of leisure time for our getters.</h5>
     </div>
     <div className="secondBlurbRight">
       <h1>SEARCH LOCAL LISTINGS</h1>
-      <p>skfbaskfbakfbakfbafbakfbaksf asdkhasfvkasf asfkhasbfkashf asfhkasvfkahsf asfhvafhabfka fhabvef fhvasf fhaevf ahbfasodfa fhbvasf</p>
+      <h5>Connect with other users in your area to find your perfect match. Whether you're 
+      a local looking to try something new, or traveling from out of town and looking for 
+      something fun to do, ReLacks is the perfect way to get started!</h5>
       <p></p>
     </div>
   </div>
