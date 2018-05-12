@@ -9,19 +9,19 @@ const ProfilePage = pages => {
     <div className="profileHeaderPictureBox">
     </div>
     <div className="profileHeaderInfo">
-      <h1 className="profileHeaderName">firstName lastName</h1>
+      <h1 className="profileHeaderName">Noah Strayve</h1>
     </div>
   </div>
   <div className="giveGetTrackerBox">
-    <p>Gives: </p>
-    <p>Gets: </p>
+    <p>Gives: Cooler: Beer and Soda, </p>
+    <p>Gets: Snorkel Mask</p>
   </div>
   <div className="myStuffFrame">
-    <h3 className="myGives">MY GIVES</h3>
+    <h3 className="myGives">My Gives</h3>
     <div className="cardHolder">
       <GiveCard />
     </div>
-    <h3 className="myGets">MY GETS</h3>
+    <h3 className="myGets">My Gets</h3>
     <div className="cardHolder">
       <GetCard />
     </div>

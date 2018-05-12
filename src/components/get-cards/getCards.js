@@ -11,11 +11,14 @@ const GetCard = props => {
   </div>
   <div className="getStuffContentBox">
     <div className="getStuffContentText">
-      <p>'Category: '</p>
-      <p>'Description: '</p>
-      <p>'Dates Claimed: '</p>
-      <p>'Payment Status: '</p>
+      <p>'Title '</p>
+      <p>'Category '</p>
+      <p>'Description '</p>
+      <p>'Location '</p>
+      <p>'Price '</p>
+      <p>'Payment Status '</p>
       <p>'Check this box upon receiving the items: '<input type="checkbox" className="form-check-input" id="getCheckbox"/></p>
+      
     </div>
     <div className="getStuffContentSubtextBox">
       <div className="getStuffContentSubtext">

@@ -11,9 +11,12 @@ const GiveCard = props => {
   </div>
   <div className="giveStuffContentBox">
     <div className="giveStuffContentText">
-      <p>Category: </p>
-      <p>Description: </p>
-      <p>Dates Claimed: </p>
+      <p>'Title '</p>
+      <p>'Category '</p>
+      <p>'Description '</p>
+      <p>'Location '</p>
+      <p>'Price '</p>
+      <p>'Payment Status'</p>
     </div>
     <div className="giveStuffContentSubtextBox">
       <div className="giveStuffContentSubtext">

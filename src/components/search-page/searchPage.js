@@ -24,7 +24,7 @@ class SearchPage extends React.Component {
         <hr className="searchPageTitleSplit" />
         <div>
           <input type="text" className="form-control" id="searchPageInput" placeholder="Where are you looking?" aria-describedby="basic-addon2" />
-          <p id="searchPageOutput">'Showing results for: RENDER SEARCH TEXT HERE'</p>
+          <p id="searchPageOutput">'Showing results for: </p>
         </div>
         <div className="searchPageMapBox">
           <h2>GOOGLE MAPS HERE</h2>
