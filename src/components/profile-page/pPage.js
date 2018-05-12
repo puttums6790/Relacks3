@@ -7,9 +7,10 @@ const ProfilePage = pages => {
   return <div className="profileFrame">
   <div className="profileHeader">
     <div className="profileHeaderPictureBox">
+    
     </div>
     <div className="profileHeaderInfo">
-      <h1 className="profileHeaderName">Noah Strayve</h1>
+      <h1 className="profileHeaderName">jmaravilla@me.com</h1>
     </div>
   </div>
   <div className="giveGetTrackerBox">
@@ -26,12 +27,12 @@ const ProfilePage = pages => {
       <GetCard />
     </div>
   </div>
-  <div className="personalInfoBox">
+  {/* <div className="personalInfoBox">
     <p>EXAMPLE: </p>
     <p>EXAMPLE: </p>
     <p>EXAMPLE: </p>
     <p>EXAMPLE: </p>
-  </div>
+  </div> */}
 </div>;
 }
 
