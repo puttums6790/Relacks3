@@ -17,7 +17,7 @@ module.exports = function (router) {
   router
     .get('/board/list', function (req, res) {
       console.log('getting board/list')
-      return Board.find({mapUrl: { $ne: null }, description { $ne: null }}).then(function (boards) {
+      return Board.find({mapUrl: { $ne: null }, description: { $ne: null }}).then(function (boards) {
         console.log('got boards', boards)
         return res.status(200).json(boards)
       })
