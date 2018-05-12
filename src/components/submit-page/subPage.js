@@ -7,7 +7,8 @@ class SubmissionPage extends React.Component {
     description: "",
     address: "",
     title: "",
-    price: ""
+    price: "",
+    mapUrl: "/assets/images/mapsample.PNG"
   }
   submit = () => {
     const form = this.state

@@ -121,6 +121,7 @@ body {
   border-color: black;
   width: 50%;
   background: #87CEEB;
+  height: 30px;
   color: white;
   border-radius: 3px 0px 0px 0px;
 }
@@ -138,7 +139,7 @@ body {
   border-width: 0px 2px 0px 0px;
   border-color: black;
   background: #FFFAF0;
-  height: 84.5%;
+  height: 266px;
   border-radius: 0px 0px 0px 3px;
 }
 
@@ -454,8 +455,12 @@ body {
   margin-left: 6%;
   height: 380px;
   background: green;
+  overflow: hidden;
 }
 
+.searchPageMapBox img {
+  width: 100%;
+}
 /*  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   !!!!                           !!!!

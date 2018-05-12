@@ -18,6 +18,7 @@
 	border-width: 0px 2px 0px 0px;
 	border-color: black;
 	width: 50%;
+	height: 30px;
 	background: #87CEEB;
 	color: white;
 	border-radius: 3px 0px 0px 0px;
@@ -36,7 +37,7 @@
 	border-width: 0px 2px 0px 0px;
 	border-color: black;
 	background: #FFFAF0;
-	height: 84.5%;
+	height: 266px;
 	border-radius: 0px 0px 0px 3px;
 }
 
@@ -51,7 +52,16 @@
 	height: 100%;
 	background: red;
 	border-radius: 0px 0px 3px 0px;
+	overflow: hidden;
+}
 
+.giveStuffContentMap img {
+	width: 100%;
+}
+
+.cardHolder .giveStuffContentMap img {
+	width: 100%;
+	height: 300px;
 }
 
 .giveStuffContentSubtextBox {
@@ -73,3 +83,92 @@
 	text-align: center;
 	padding-top: 5%
 }
+
+
+/* GETSTUFF */
+.getStuffBox {
+	background: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	width: 93%;
+	position: relative;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+	border-radius: 5px;
+
+}
+
+.getStuffTitleBox {
+	float: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	width: 50%;
+	height: 30px;
+	background: #87CEEB;
+	color: white;
+	border-radius: 3px 0px 0px 0px;
+}
+
+.getStuffTitle {
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.getStuffContentBox {
+	width: 50%;
+	float: left;
+	clear: left;
+	border-style: solid;
+	border-width: 0px 2px 0px 0px;
+	border-color: black;
+	background: #FFFAF0;
+	height: 266px;
+	border-radius: 0px 0px 0px 3px;
+}
+
+.getStuffContentText {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.getStuffContentMap {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background: red;
+	border-radius: 0px 0px 3px 0px;
+	overflow: hidden;
+}
+
+.getStuffContentMap img {
+	width: 100%;
+}
+
+.cardHolder .getStuffContentMap img {
+	width: 100%;
+	height: 300px;
+}
+
+.getStuffContentSubtextBox {
+	width: 100%;
+}
+
+.getStuffContentSubtext {
+	float: left;
+	margin-left: 8.5%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	width: 36%;
+	margin-top: 12%
+}
+
+.getStuffContentSubtextText {
+	text-align: center;
+	padding-top: 5%
+}
+

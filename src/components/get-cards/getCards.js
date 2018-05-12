@@ -7,7 +7,7 @@ const GetCard = props => {
     <h3 className="getStuffTitle">THE THING</h3>
   </div>
   <div className="getStuffContentMap">
-    <p>'THIS IS WHERE GOOGLE MAPS GOES'</p>
+    <img src="/assets/images/mapsample.PNG" alt="mapsample" />
   </div>
   <div className="getStuffContentBox">
     <div className="getStuffContentText">

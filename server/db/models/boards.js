@@ -19,6 +19,9 @@ var board = new Schema({
   },
   contactInfo: {
     type: String
+  },
+  mapUrl: {
+    type: String
   }
 })
 

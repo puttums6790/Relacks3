@@ -8,7 +8,7 @@ const SearchCard = props => {
     <h3 className="giveStuffTitle">{ props.card.title }</h3>
   </div>
   <div className="giveStuffContentMap">
-    <p>THIS IS WHERE GOOGLE MAPS GOES</p>
+    <p><img src={ props.card.mapUrl } alt={`map for ${ props.card.title }`} /></p>
   </div>
   <div className="giveStuffContentBox">
     <div className="giveStuffContentText">

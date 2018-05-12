@@ -27,7 +27,7 @@ class SearchPage extends React.Component {
           <p id="searchPageOutput">'Showing results for: </p>
         </div>
         <div className="searchPageMapBox">
-          <h2>GOOGLE MAPS HERE</h2>
+          <img src="/assets/images/mapsample.PNG" alt="map sample" />
         </div>
         <div className="searchCardHolder">
           {

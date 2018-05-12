@@ -7,7 +7,7 @@ const GiveCard = props => {
     <h3 className="giveStuffTitle">THE THING</h3>
   </div>
   <div className="giveStuffContentMap">
-    <p>THIS IS WHERE GOOGLE MAPS GOES</p>
+    <p><img src="/assets/images/mapsample.PNG" alt="mapsample" /></p>
   </div>
   <div className="giveStuffContentBox">
     <div className="giveStuffContentText">
