@@ -13,7 +13,7 @@ const GetCard = props => {
     <div className="getStuffContentText">
       <p>'Title '</p>
       <p>'Category '</p>
-      <p>'Description '</p>
+      <p>'Description/Contact Info '</p>
       <p>'Location '</p>
       <p>'Price '</p>
       <p>'Payment Status '</p>

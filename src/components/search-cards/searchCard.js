@@ -13,7 +13,7 @@ const SearchCard = props => {
   <div className="giveStuffContentBox">
     <div className="giveStuffContentText">
       <p>Type: { props.card.type.join(", ") }</p>
-      <p>Description: {props.card.description} </p>
+      <p>Description/Contact Info: {props.card.description} </p>
       <p>Location: {props.card.address} </p>
       <p>Price: ${props.card.price} </p>
     </div>

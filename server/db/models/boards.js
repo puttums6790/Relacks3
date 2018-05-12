@@ -8,7 +8,7 @@ var board = new Schema({
   type: {
     type: Array
   },
-  description: {
+  Description: {
     type: String
   },
   address: {

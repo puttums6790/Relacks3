@@ -89,7 +89,7 @@ class SubmissionPage extends React.Component {
     </div>
     <div>
       <div className="stepTwoTitleBox">
-        <h5>Description</h5>
+        <h5>Description/Contact Info</h5>
         <div className="form-group" id="submissionEntryBox">
             <textarea onChange={(e) => this.setState({description: e.target.value})} className="form-control" id="submissionDecriptionEntry" rows="3"></textarea>
           </div>
